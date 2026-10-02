@@ -1,4 +1,7 @@
-export const API = process.env.NEXT_PRIVATE_API_URL;
+const base =
+  process.env.NEXT_PUBLIC_API_URL ??
+  (process.env.NODE_ENV === "development" ? "http://127.0.0.1:8000" : "");
+export const API = base.replace(/\/$/, "");
 
 export type Segment = {
   id: number;
