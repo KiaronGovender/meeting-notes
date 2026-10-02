@@ -143,6 +143,4 @@ All on free tiers.
 - Recordings imported by URL play from their original link. Recordings made by the bot are served through Meeting BaaS.
 - No authentication: anyone with the link can use the app. Set `READ_ONLY=true` on a public deployment.
 
-## AI assistance
 
-`<Describe how you used AI tools here.>`
